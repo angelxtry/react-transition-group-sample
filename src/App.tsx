@@ -10,10 +10,18 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <nav className="nav">
-          <NavLink exact to="/" activeClassName="active">
+          <NavLink
+            exact
+            to="/react-transition-group-sample"
+            activeClassName="active"
+          >
             Home
           </NavLink>
-          <NavLink exact to="/about" activeClassName="active">
+          <NavLink
+            exact
+            to="/react-transition-group-sample/about"
+            activeClassName="active"
+          >
             About
           </NavLink>
         </nav>
@@ -26,8 +34,16 @@ const App = () => {
                 classNames="fade"
               >
                 <Switch location={location}>
-                  <Route exact path="/" component={Home} />
-                  <Route exact path="/about" component={About} />
+                  <Route
+                    exact
+                    path="/react-transition-group-sample"
+                    component={Home}
+                  />
+                  <Route
+                    exact
+                    path="/react-transition-group-sample/about"
+                    component={About}
+                  />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

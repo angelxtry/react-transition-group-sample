@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+* {
+  font-family: 'Noto Sans KR', NanumGothic, 'Malgun Gothic',
+  'Apple SD Gothic Neo', Roboto, sans-serif;
+}
+
 .body {
   padding: 0;
   border: 0;
@@ -27,10 +34,7 @@
 }
 
 .page section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 2em;
   height: calc(100vh - 5em);
 }
 
