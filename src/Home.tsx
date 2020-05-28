@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as MoonSvg } from './images/ic-btn-emo-moon.svg';
 
 export default function Home() {
   return (

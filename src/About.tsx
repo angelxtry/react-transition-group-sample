@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as LoveSvg } from './images/ic-btn-emo-love.svg';
 
 export default function About() {
   return (
